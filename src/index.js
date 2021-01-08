@@ -23,6 +23,8 @@ const server = new GraphQLServer({
   resolvers
 });
 
+console.log("woring commit");
+
 server.start(() => {
   console.log("server is running");
 });
